@@ -9,7 +9,7 @@ SELECT irfdw.v_fas_aura.agency_cd
 		WHEN SUBSTR(IRFDW.V_FAS_AURA.AGENCY_CD, 1, 4) = 'COR0'
 			THEN 'Corporation'
 		WHEN SUBSTR(IRFDW.V_FAS_AURA.AGENCY_CD, 1, 4) = 'CRF0'
-			THEN 'Corporation Foundations'
+			THEN 'Corporate Foundations'
 		WHEN SUBSTR(IRFDW.V_FAS_AURA.AGENCY_CD, 1, 3) = 'DHS'
 			THEN 'Other Federal'
 		WHEN SUBSTR(IRFDW.V_FAS_AURA.AGENCY_CD, 1, 4) = 'DNI0'
